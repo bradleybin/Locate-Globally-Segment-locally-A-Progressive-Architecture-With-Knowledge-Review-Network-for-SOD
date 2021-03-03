@@ -99,3 +99,7 @@ For DUTS-TE dataset testing.
 python main.py --mode test --clm_model path/to/pretrained/clm-model/folder/  --fsm_model path/to/pretrained/fsm-model/folder/ --test_fold path/to/test/folder/ --sal_mode e
 ```
 All results saliency maps will be stored under results/run-*-sal-* folders in .png formats. For testing other datasets, download them and unzip them into `data` folder, and test them by the same steps. 'sal_mode' of ECSSD, PASCALS, DUT-OMRON, and HKU-IS are 'e', 'p', 'd', and 'h', respectively.
+
+
+### 6. Saliency maps
+[baidu](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) 提取码: 9wxg
