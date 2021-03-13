@@ -112,12 +112,13 @@ After training, the resulting model will be stored under results/joint/run-* f
 
 
 ### 6. Test
+We provide the pre-trained SGL-KRN model and PA-KRN model [Google Drive](https://drive.google.com/file/d/1DLx7FcDo6am_vy6hLmowJ2TnePJQtGCp/view?usp=sharing)|[Baidu Disk](https://pan.baidu.com/s/17KWQ3KuHtb_M8yIQo3p9kw)(pwd: ju8p)
 #### 6.1 SGL-KRN
 For DUTS-TE dataset testing.
 ```
 python main_SGL_KRN.py --mode test --test_model path/to/pretrained/SGL_KRN/folder/ --test_fold path/to/test/folder/ --sal_mode t
 ```
-All results saliency maps will be stored under results/run-*-sal-* folders in .png formats. For testing other datasets, download them and unzip them into `data` folder, and test them by the same steps. 'sal_mode' of ECSSD, PASCALS, DUT-OMRON, and HKU-IS are 'e', 'p', 'd', and 'h', respectively.
+All results saliency maps will be stored under results/run-*-sal-* folders in .png formats. For testing other datasets, download them and unzip them into `data` folder, and test them by the same steps. 'sal_mode' of ECSSD, PASCALS, DUT-OMRON, and HKU-IS are 'e', 'p', 'd', and 'h', respectively.
 
 #### 6.2 PA-KRN
 For DUTS-TE dataset testing.
