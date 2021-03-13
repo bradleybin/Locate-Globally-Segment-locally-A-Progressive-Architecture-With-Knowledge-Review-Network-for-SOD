@@ -112,7 +112,7 @@ After training, the resulting model will be stored under results/joint/run-* f
 
 
 ### 6. Test
-We provide the pre-trained SGL-KRN model and PA-KRN model [Google Drive](https://drive.google.com/file/d/1DLx7FcDo6am_vy6hLmowJ2TnePJQtGCp/view?usp=sharing)|[Baidu Disk](https://pan.baidu.com/s/17KWQ3KuHtb_M8yIQo3p9kw)(pwd: ju8p)
+We provide the pre-trained SGL-KRN model and PA-KRN model [Google Drive](https://drive.google.com/file/d/1DLx7FcDo6am_vy6hLmowJ2TnePJQtGCp/view?usp=sharing) | [Baidu Disk](https://pan.baidu.com/s/17KWQ3KuHtb_M8yIQo3p9kw)(pwd: ju8p)
 #### 6.1 SGL-KRN
 For DUTS-TE dataset testing.
 ```
@@ -129,6 +129,6 @@ All results saliency maps will be stored under results/run-*-sal-* folders in 
 
 
 ### 7. Saliency maps
-[Baidu Disk](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) (pwd: 9wxg) or [Google Drive](https://drive.google.com/drive/folders/1crvlMRp5oBNHs3zJ9kEYJREfw4ZjxnQm?usp=sharing)
+We provide the pre-computed saliency maps [Baidu Disk](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) (pwd: 9wxg) | [Google Drive](https://drive.google.com/drive/folders/1crvlMRp5oBNHs3zJ9kEYJREfw4ZjxnQm?usp=sharing)
 
 Thanks to [PoolNet repository](https://github.com/backseason/PoolNet) and [AttentionSampler repository](https://github.com/wkcn/AttentionSampler)
