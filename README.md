@@ -102,7 +102,7 @@ After training, the resulting model will be stored under results/clm/run-* fol
 ```
 python main_fsm.py  --clm_model path/to/pretrained/clm-model/folder/
 ```
-After training, the resulting model will be stored under results/fsm/run-* folder.
+After training, the resulting model will be stored under results/fsm/run-* folder, and * changes accordingly. 'path/to/pretrained/clm-model/folder/' is the path to pretrained clm-model folder.
 
 3. Train PA-KRN. 
 ```
