@@ -78,7 +78,7 @@ The directory shows as follow:
          └── test.lst
 ```
 ### 4. Download Pretrained ResNet-50 Model for backbone
-Download ResNet-50 pretrained models and save it into `demo/dataset/pretrained` folder
+Download ResNet-50 pretrained models [Google Drive](https://drive.google.com/drive/folders/1Q2Fg2KZV8AzNdWNjNgcavffKJBChdBgy) and save it into `demo/dataset/pretrained` folder
 
 ### 5. Train
 #### 5.1 SGL-KRN
@@ -130,6 +130,6 @@ All results saliency maps will be stored under results/run-*-sal-* folders in 
 
 
 ### 7. Saliency maps
-[Baidu Disk](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) (9wxg) or [Google Drive](https://drive.google.com/drive/folders/1crvlMRp5oBNHs3zJ9kEYJREfw4ZjxnQm?usp=sharing)
+[Baidu Disk](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) (pwd:9wxg) or [Google Drive](https://drive.google.com/drive/folders/1crvlMRp5oBNHs3zJ9kEYJREfw4ZjxnQm?usp=sharing)
 
 Thanks to [PoolNet repository](https://github.com/backseason/PoolNet) and [PoolNet repository](https://github.com/wkcn/AttentionSampler)
