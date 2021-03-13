@@ -130,4 +130,4 @@ All results saliency maps will be stored under results/run-*-sal-* folders in 
 ### 7. Saliency maps
 [Baidu Disk](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) (pwd: 9wxg) or [Google Drive](https://drive.google.com/drive/folders/1crvlMRp5oBNHs3zJ9kEYJREfw4ZjxnQm?usp=sharing)
 
-Thanks to [PoolNet repository](https://github.com/backseason/PoolNet) and [PoolNet repository](https://github.com/wkcn/AttentionSampler)
+Thanks to [PoolNet repository](https://github.com/backseason/PoolNet) and [AttentionSampler repository](https://github.com/wkcn/AttentionSampler)
