@@ -100,13 +100,13 @@ After training, the resulting model will be stored under results/clm/run-* fol
 
 2. Train FSM. 
 ```
-python main_fsm.py  --clm_model path/to/pretrained/clm-model/folder/
+python main_fsm.py  --clm_model path/to/pretrained/clm/folder/
 ```
-After training, the resulting model will be stored under results/fsm/run-* folder, and * changes accordingly. 'path/to/pretrained/clm-model/folder/' is the path to pretrained clm-model folder.
+After training, the resulting model will be stored under results/fsm/run-* folder, and * changes accordingly. 'path/to/pretrained/clm/folder/' is the path to pretrained clm folder.
 
 3. Train PA-KRN. 
 ```
-python main_joint.py  --clm_model path/to/pretrained/clm-model/folder/  --fsm_model path/to/pretrained/fsm-model/folder/
+python main_joint.py  --clm_model path/to/pretrained/clm/folder/  --fsm_model path/to/pretrained/fsm/folder/
 ```
 After training, the resulting model will be stored under results/joint/run-* folder. 'net_\*.pth' is the parameter of CLM model and '.pth' is the parameter of FSM model.
 
@@ -123,7 +123,7 @@ All results saliency maps will be stored under results/run-*-sal-* folders in .p
 #### 6.2 PA-KRN
 For DUTS-TE dataset testing.
 ```
-python main_joint.py --mode test --clm_model path/to/pretrained/clm-model/folder/  --fsm_model path/to/pretrained/fsm-model/folder/ --test_fold path/to/test/folder/ --sal_mode t
+python main_joint.py --mode test --clm_model path/to/pretrained/clm/folder/  --fsm_model path/to/pretrained/fsm/folder/ --test_fold path/to/test/folder/ --sal_mode t
 ```
 All results saliency maps will be stored under results/run-*-sal-* folders in .png formats. For testing other datasets, download them and unzip them into `data` folder, and test them by the same steps. 'sal_mode' of ECSSD, PASCALS, DUT-OMRON, and HKU-IS are 'e', 'p', 'd', and 'h', respectively.
 
