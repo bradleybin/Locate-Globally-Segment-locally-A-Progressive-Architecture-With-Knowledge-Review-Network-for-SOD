@@ -1,5 +1,5 @@
 # Locate-Globally-Segment-locally-A-Progressive-Architecture-With-Knowledge-Review-Network-for-SOD
-This repository is the official implementation of PA-KRN and SGL-KRN, which is proposed in "Locate Globally, Segment locally: A Progressive Architecture With Knowledge Review Network for Salient Object Detection."
+This repository is the official implementation of PA-KRN and SGL-KRN, which is proposed in "Locate Globally, Segment locally: A Progressive Architecture With Knowledge Review Network for Salient Object Detection." [Paper (PRELIMINARY VERSION)](https://www.aaai.org/AAAI21Papers/AAAI-4841.XuB.pdf)
 
 ![image](https://user-images.githubusercontent.com/42328490/109591578-ba656100-7b48-11eb-8419-d258e20ed9d0.png)
 
