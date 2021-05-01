@@ -118,14 +118,14 @@ For DUTS-TE dataset testing.
 ```
 python main_SGL_KRN.py --mode test --test_model path/to/pretrained/SGL_KRN/folder/ --test_fold path/to/test/folder/ --sal_mode t
 ```
-All results saliency maps will be stored under results/run-*-sal-* folders in .png formats. For testing other datasets, download them and unzip them into `data` folder, and test them by the same steps. 'sal_mode' of ECSSD, PASCALS, DUT-OMRON, and HKU-IS are 'e', 'p', 'd', and 'h', respectively.
+'sal_mode' of ECSSD, PASCALS, DUT-OMRON, and HKU-IS are 'e', 'p', 'd', and 'h', respectively.
 
 #### 6.2 PA-KRN
 For DUTS-TE dataset testing.
 ```
 python main_joint.py --mode test --clm_model path/to/pretrained/clm/folder/  --fsm_model path/to/pretrained/fsm/folder/ --test_fold path/to/test/folder/ --sal_mode t
 ```
-All results saliency maps will be stored under results/run-*-sal-* folders in .png formats. For testing other datasets, download them and unzip them into `data` folder, and test them by the same steps. 'sal_mode' of ECSSD, PASCALS, DUT-OMRON, and HKU-IS are 'e', 'p', 'd', and 'h', respectively.
+'sal_mode' of ECSSD, PASCALS, DUT-OMRON, and HKU-IS are 'e', 'p', 'd', and 'h', respectively.
 
 
 ### 7. Saliency maps
