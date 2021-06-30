@@ -5,7 +5,7 @@ This repository is the official implementation of PA-KRN and SGL-KRN, which is p
 
 ## Prerequisites
 - Python 3.6
-- PyTorch 0.4.1+
+- PyTorch 0.4.1+ (My version ---> PyTorch 1.0.0)
 - torchvision
 - Opencv
 - numpy
