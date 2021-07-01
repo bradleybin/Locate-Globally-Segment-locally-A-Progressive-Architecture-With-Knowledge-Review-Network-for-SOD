@@ -132,3 +132,19 @@ python main_joint.py --mode test --clm_model path/to/pretrained/clm/folder/  --f
 We provide the pre-computed saliency maps [Google Drive](https://drive.google.com/drive/folders/1crvlMRp5oBNHs3zJ9kEYJREfw4ZjxnQm?usp=sharing) | [Baidu Disk](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) (pwd: 9wxg).
 
 Thanks to [PoolNet repository](https://github.com/backseason/PoolNet) and [AttentionSampler repository](https://github.com/wkcn/AttentionSampler).
+
+
+### Citing PAKRN
+Please cite with the following Bibtex code:
+
+```
+@inproceedings{xu2021locate,
+  title={Locate Globally, Segment Locally: A Progressive Architecture With Knowledge Review Network for Salient Object Detection},
+  author={Xu, Binwei and Liang, Haoran and Liang, Ronghua and Chen, Peng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={35},
+  number={4},
+  pages={3004--3012},
+  year={2021}
+}
+```
