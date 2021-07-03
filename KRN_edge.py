@@ -31,7 +31,7 @@ class DeepPoolLayer_first(nn.Module):
     def __init__(self, k, k_out, need_x2,
                  need_fuse):  # (config['deep_pool'][0][i], config['deep_pool'][1][i], config['deep_pool'][2][i], config['deep_pool'][3][i])
         super(DeepPoolLayer_first, self).__init__()
-        self.pools_sizes = [2, 4, 8]
+        self.pools_sizes = [2, 2, 2]
         self.need_x2 = need_x2
         self.need_fuse = need_fuse
         pools, convs = [], []
