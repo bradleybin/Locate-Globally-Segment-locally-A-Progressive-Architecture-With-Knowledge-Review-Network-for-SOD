@@ -35,8 +35,8 @@ class Solver(object):
         if config.mode == 'test':
             print('Loading pre-trained model from %s...' % self.config.model)
             if self.config.cuda:
-                self.net.load_state_dict(torch.load(self.config.clm_model))
-                self.net_hou.load_state_dict(torch.load(self.config.fsm_model))
+                self.net.load_state_dict(torch.load(self.config.clm_model, map_location={'cuda:2':'cuda:0'}))
+                self.net_hou.load_state_dict(torch.load(self.config.fsm_model, map_location={'cuda:2':'cuda:0'}))
             else:
                 self.net.load_state_dict(torch.load(self.config.model, map_location='cpu'))
             self.net.eval()
@@ -56,14 +56,16 @@ class Solver(object):
         if self.config.cuda:
             self.net = self.net.cuda()
         self.net.eval()
-        self.net.load_state_dict(
-            torch.load(self.config.clm_model))
+        if self.config.mode == 'train':
+            self.net.load_state_dict(
+                torch.load(self.config.clm_model))
 
         self.net_hou = KRN_edge(self.config.arch, *extra_layer(self.config.arch, resnet50_locate()))
         if self.config.cuda:
             self.net_hou = self.net_hou.cuda()
         self.net_hou.eval() # use_global_stats = True
-        self.net_hou.load_state_dict(torch.load(self.config.fsm_model))
+        if self.config.mode == 'train':
+            self.net_hou.load_state_dict(torch.load(self.config.fsm_model))
         self.lr = self.config.lr
         self.wd = self.config.wd
         self.optimizer = Adam([{'params': filter(lambda p: p.requires_grad, self.net.parameters())},
