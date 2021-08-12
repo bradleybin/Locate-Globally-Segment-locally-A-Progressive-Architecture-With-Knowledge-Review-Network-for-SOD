@@ -114,7 +114,7 @@ After training, the resulting model will be stored under results/joint/run-* f
 
 
 ### 6. Test
-2021-7-3. We have corrected the errors in the original code. The pre-trained SGL-KRN model and PA-KRN model will be released soon...
+Download pretrained SGL-KRN and PA-KRN models [Google Drive](https://drive.google.com/file/d/1v0syP-e4VkT0oJPdQ0C0SVH9VDioyG9P/view?usp=sharing)
 
 #### 6.1 SGL-KRN
 For DUTS-TE dataset testing.
