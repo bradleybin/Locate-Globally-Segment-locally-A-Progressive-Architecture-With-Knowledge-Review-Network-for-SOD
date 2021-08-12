@@ -1,5 +1,6 @@
 # Locate-Globally-Segment-locally-A-Progressive-Architecture-With-Knowledge-Review-Network-for-SOD
 !!!2021-7-3. We have corrected some errors. The pre-trained SGL-KRN model and PA-KRN model will be released soon...
+
 !!!2021-8-12. The pre-trained SGL-KRN model and PA-KRN model have been released.
 
 This repository is the official implementation of PA-KRN and SGL-KRN, which is proposed in "Locate Globally, Segment locally: A Progressive Architecture With Knowledge Review Network for Salient Object Detection." [PDF](https://ojs.aaai.org/index.php/AAAI/article/view/16408)
