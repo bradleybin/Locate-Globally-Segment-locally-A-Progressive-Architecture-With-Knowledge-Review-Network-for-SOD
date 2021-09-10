@@ -134,7 +134,7 @@ python main_joint.py --mode test --clm_model path/to/pretrained/clm/folder/  --f
 
 
 ### 7. Saliency maps
-We provide the pre-computed saliency maps [Google Drive](https://drive.google.com/drive/folders/1crvlMRp5oBNHs3zJ9kEYJREfw4ZjxnQm?usp=sharing) | [Baidu Disk](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) (pwd: 9wxg).
+We provide the pre-computed saliency maps from our paper [Google Drive](https://drive.google.com/drive/folders/1crvlMRp5oBNHs3zJ9kEYJREfw4ZjxnQm?usp=sharing) | [Baidu Disk](https://pan.baidu.com/s/1pKE4K8bckxgvttO4rgjEBw) (pwd: 9wxg).
 
 Thanks to [PoolNet repository](https://github.com/backseason/PoolNet) and [AttentionSampler repository](https://github.com/wkcn/AttentionSampler).
 
