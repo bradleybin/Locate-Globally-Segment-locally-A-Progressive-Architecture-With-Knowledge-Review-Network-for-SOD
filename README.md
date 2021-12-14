@@ -9,7 +9,7 @@
 
 ## Prerequisites
 - Python 3.6
-- PyTorch 0.4.1+ (My version ---> PyTorch 1.0.0)
+- PyTorch 1.0.0
 - torchvision
 - Opencv
 - numpy
