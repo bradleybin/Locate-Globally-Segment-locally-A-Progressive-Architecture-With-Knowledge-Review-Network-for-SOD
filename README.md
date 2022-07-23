@@ -146,8 +146,10 @@ Please cite with the following Bibtex code:
 @inproceedings{xu2021locate,
   title={Locate globally, segment locally: A progressive architecture with knowledge review network for salient object detection},
   author={Xu, Binwei and Liang, Haoran and Liang, Ronghua and Chen, Peng},
-  booktitle={Proceedings. of the AAAI Conference On Artificial Intelligence},
-  pages={1--9},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={35},
+  number={4},
+  pages={3004--3012},
   year={2021}
 }
 ```
